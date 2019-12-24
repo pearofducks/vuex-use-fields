@@ -1,0 +1,16 @@
+{
+  "name": "vuex-use-fields",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": ["vuex","composition-api"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^1.27.14"
+  }
+}
