@@ -14,7 +14,8 @@ export default {
   name: 'app',
   components: { HelloWorld },
   setup: () => ({
-    ...useFields({ foo: 'llama' })
+    ...useFields({ foo: 'llama' }),
+    ...useFields(['foo.*'])
   })
 }
 </script>

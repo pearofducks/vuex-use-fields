@@ -7,7 +7,10 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": ["vuex","composition-api"],
+  "keywords": [
+    "vuex",
+    "composition-api"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

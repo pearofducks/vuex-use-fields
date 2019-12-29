@@ -6,7 +6,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    llama: 'wombat'
+    llama: 'wombat',
+    foo: {
+      bar: 1,
+      baz: 2,
+      biz: 3
+    }
   },
   mutations: {
     setField
