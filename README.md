@@ -18,7 +18,7 @@ yarn add vuex-use-fields@two
 
 ## use
 
-To set up the store helpers, and give this plugin a refernce to the store:
+To set up the store helpers, and give this plugin a reference to the store:
 
 ```js
 import { setupStore, getField, setField } from 'vuex-use-fields'
