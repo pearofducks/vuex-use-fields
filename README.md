@@ -34,7 +34,7 @@ const store = {
 To use in a component:
 
 ```js
-import { useFields } from '../../index.js'
+import { useFields } from 'vuex-use-fields'
 
 export default {
   setup: () => ({
@@ -54,6 +54,7 @@ If you install the `getField` and `setField` helpers at the root of your store, 
 You can also install the helpers at the namespace level, and then use `createFieldMapper` to make a new `useFields` instance specific to that namespace.
 
 ```js
+import { createFieldMapper } from 'vuex-use-fields'
 const useFieldsInMyNamespace = createFieldMapper({ getter: 'myNamespace/getField', setter: 'myNamespace/setField' })
 
 export default {
