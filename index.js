@@ -1,7 +1,7 @@
 import { arrayToObject } from './lib/array-to-object'
 import { get, set } from './lib/deep-object'
-import { computed } from '@vue/composition-api'
-// import { computed } from 'vue'
+// import { computed } from '@vue/composition-api'
+import { computed } from 'vue'
 
 let store
 

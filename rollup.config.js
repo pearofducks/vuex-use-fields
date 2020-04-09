@@ -3,7 +3,7 @@ import buble from '@rollup/plugin-buble'
 import { terser } from 'rollup-plugin-terser'
 
 const input = 'index.js'
-const external = ['@vue/composition-api']
+const external = ['@vue/composition-api', 'vue']
 const esmOutput = { file: pkg.module, format: 'esm' }
 const cjsOutput = { file: pkg.main, format: 'cjs' }
 
