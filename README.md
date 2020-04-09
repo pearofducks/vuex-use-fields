@@ -2,6 +2,14 @@
 
 ## install
 
+For Vue 3
+
+```shell
+yarn add vuex-use-fields
+```
+
+For Vue 2 + Composition API
+
 ```shell
 yarn add vuex-use-fields@two
 ```
