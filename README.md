@@ -1,5 +1,7 @@
 # vuex-use-fields
 
+A tiny (less than 1kb min'd) zero-dependency Vuex plugin to help create `computed` bindings for form fields in Vue 3.
+
 ## install
 
 For Vue 3
