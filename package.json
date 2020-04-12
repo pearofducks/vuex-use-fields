@@ -5,6 +5,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "scripts": {
+    "test": "ava --verbose",
     "build": "rollup -c",
     "publish:2": "npm publish --tag two"
   },
@@ -16,11 +17,19 @@
     "vuex",
     "composition-api"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Dave Honneffer <pearofducks@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-buble": "^0.21.1",
+    "ava": "^3.6.0",
+    "esm": "^3.2.25",
     "rollup": "^1.27.14",
     "rollup-plugin-terser": "^5.3.0"
+  },
+  "ava": {
+    "require": "esm",
+    "files": [
+      "test/**/*"
+    ]
   }
 }
