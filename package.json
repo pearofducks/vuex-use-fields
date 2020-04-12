@@ -17,6 +17,14 @@
     "vuex",
     "composition-api"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pearofducks/vuex-use-fields.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pearofducks/vuex-use-fields/issues"
+  },
+  "homepage": "https://github.com/pearofducks/vuex-use-fields#readme",
   "author": "Dave Honneffer <pearofducks@gmail.com>",
   "license": "MIT",
   "devDependencies": {
